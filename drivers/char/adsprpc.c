@@ -3678,7 +3678,6 @@ bail:
 static int fastrpc_internal_control(struct fastrpc_file *fl,
 					struct fastrpc_ioctl_control *cp)
 {
-	struct fastrpc_apps *me = &gfa;
 	int err = 0;
 	int latency;
 	cpumask_t mask;
